@@ -6,7 +6,3 @@ def func(lists):
                 if lists[i][j] == lists[i + 1][k]:
                     count += 1
     return count
-
-
-lists = [[1, 2, 3, 4, 8], [2, 4, 6, 8]]
-print(func(lists))
